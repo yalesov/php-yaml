@@ -1,0 +1,24 @@
+{
+    "name": "heartsentwined/yaml",
+    "description": "Wrapper around Symfony's Yaml parser - added __DIR__ support.",
+    "license": "GPL-3.0",
+    "keywords": ["yaml", "yml"],
+    "homepage": "https://github.com/heartsentwined/yaml",
+    "authors": [
+        {
+            "name": "heartsentwined",
+            "email": "heartsentwined@cogito-lab.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Heartsentwined\\Yaml": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.3.3",
+        "heartsentwined/arg-validator": "1.*",
+        "symfony/yaml": "2.0.*"
+    }
+}
