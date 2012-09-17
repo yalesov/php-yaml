@@ -11,7 +11,7 @@ Wrapper around Symfony's Yaml parser - added `__DIR__` support.
 ```json
 {
     "require": {
-        "heartsentwined/yaml": "dev-master"
+        "heartsentwined/yaml": "1.*"
     }
 }
 ```
