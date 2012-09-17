@@ -11,6 +11,11 @@ class YamlTest extends \PHPUnit_Framework_TestCase
         $this->tmpPath = realpath(dirname($this->tmpFile));
     }
 
+    public function tearDown()
+    {
+        unlink($this->tmpFile);
+    }
+
     public function testParse()
     {
         // yaml stream
