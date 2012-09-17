@@ -8,7 +8,7 @@ class YamlTest extends \PHPUnit_Framework_TestCase
     public function setUp()
     {
         $this->tmpFile = '.yaml';
-        $this->tmpPath = realpath($this->tmpFile);
+        $this->tmpPath = realpath(dirname($this->tmpFile));
     }
 
     public function testParse()
@@ -50,7 +50,7 @@ class YamlTest extends \PHPUnit_Framework_TestCase
             Yaml::parse($this->tmpFile));
 
         // altogether
-        file_put_contents($this->tmpFile, "__DIR__/foo: ___DIR___/bar\n___DIR___bar: __DIR__/foo");
+        file_put_contents($this->tmpFile, "__DIR__/foo: ___DIR___/bar\n___DIR___/bar: __DIR__/foo");
         $this->assertSame(
             array(
                 "{$this->tmpPath}/foo" => '__DIR__/bar',

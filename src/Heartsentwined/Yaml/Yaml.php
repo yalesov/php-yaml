@@ -20,7 +20,7 @@ class Yaml
     {
         ArgValidator::assert($yaml, 'string');
         if (is_file($yaml) && is_readable($yaml)) {
-            $dir = realpath($yaml);
+            $dir = realpath(dirname($yaml));
             $yaml = file_get_contents($yaml);
             $yaml = strtr($yaml, array(
                 '___DIR___' => '__DIR__',
