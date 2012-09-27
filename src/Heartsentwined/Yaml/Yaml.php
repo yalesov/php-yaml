@@ -13,7 +13,7 @@ class Yaml
      * - '__DIR__' will behave as expected
      * - '___DIR___' (an extra underscore around) will be translated as a literal '__DIR__'
      *
-     * @param mixed $yaml
+     * @param  mixed $yaml
      * @return self
      */
     public static function parse($yaml)
@@ -27,6 +27,7 @@ class Yaml
                 '__DIR__' => $dir,
             ));
         }
+
         return SymfonyYaml::parse($yaml);
     }
 }
