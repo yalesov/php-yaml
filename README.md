@@ -1,6 +1,6 @@
 # Yalesov\Yaml
 
-[![Build Status](https://secure.travis-ci.org/yalesov/yaml.png)](http://travis-ci.org/yalesov/yaml)
+[![Build Status](https://travis-ci.org/yalesov/php-yaml.svg)](https://travis-ci.org/yalesov/php-yaml)
 
 Wrapper around Symfony's Yaml parser - added `__DIR__` support.
 
