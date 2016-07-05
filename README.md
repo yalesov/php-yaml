@@ -1,6 +1,6 @@
-# Heartsentwined\Yaml
+# Yalesov\Yaml
 
-[![Build Status](https://secure.travis-ci.org/heartsentwined/yaml.png)](http://travis-ci.org/heartsentwined/yaml)
+[![Build Status](https://secure.travis-ci.org/yalesov/yaml.png)](http://travis-ci.org/yalesov/yaml)
 
 Wrapper around Symfony's Yaml parser - added `__DIR__` support.
 
@@ -11,7 +11,7 @@ Wrapper around Symfony's Yaml parser - added `__DIR__` support.
 ```json
 {
     "require": {
-        "heartsentwined/yaml": "1.*"
+        "yalesov/yaml": "1.*"
     }
 }
 ```
@@ -25,13 +25,13 @@ Two constants added:
 Parse a Yaml file `foo/bar.yml`:
 
 ```php
-use Heartsentwined\Yaml\Yaml;
+use Yalesov\Yaml\Yaml;
 $parsedArray = Yaml::parse('foo/bar.yml');
 ```
 
 Parse a Yaml string `foo: bar` (of course, neither `__DIR__` nor `___DIR___` would be available)
 
 ```php
-use Heartsentwined\Yaml\Yaml;
+use Yalesov\Yaml\Yaml;
 $parsedArray = Yaml::parse('foo: bar');
 ```

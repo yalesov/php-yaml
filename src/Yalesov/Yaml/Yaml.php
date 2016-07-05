@@ -1,7 +1,7 @@
 <?php
-namespace Heartsentwined\Yaml;
+namespace Yalesov\Yaml;
 
-use Heartsentwined\ArgValidator\ArgValidator;
+use Yalesov\ArgValidator\ArgValidator;
 use Symfony\Component\Yaml\Yaml as SymfonyYaml;
 
 class Yaml

@@ -1,7 +1,7 @@
 <?php
-namespace Heartsentwined\Test\Yaml;
+namespace Yalesov\Test\Yaml;
 
-use Heartsentwined\Yaml\Yaml;
+use Yalesov\Yaml\Yaml;
 
 class YamlTest extends \PHPUnit_Framework_TestCase
 {
