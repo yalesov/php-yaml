@@ -11,7 +11,7 @@ Wrapper around Symfony's Yaml parser - added `__DIR__` support.
 ```json
 {
     "require": {
-        "yalesov/yaml": "1.*"
+        "yalesov/yaml": "2.*"
     }
 }
 ```
