@@ -1,35 +1,35 @@
 {
-    "name": "yalesov/yaml",
-    "description": "Wrapper around Symfony's Yaml parser - added __DIR__ support.",
-    "keywords": ["yaml", "yml"],
-    "authors": [
-        {
-            "name": "Yulij Andreevich Lesov",
-            "email": "yalesov@gmail.com"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.3",
-        "yalesov/arg-validator": "2.*",
-        "symfony/yaml": "*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "*"
-    },
-    "autoload": {
-        "psr-0": {
-            "Yalesov\\Yaml": "src/"
-        }
-    },
-    "license": "ISC",
-    "homepage": "https://github.com/yalesov/php-yaml",
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/yalesov/php-yaml"
-        }
-    ],
-    "support": {
-        "issues": "https://github.com/yalesov/php-yaml/issues"
+  "name": "yalesov/yaml",
+  "description": "Wrapper around Symfony's Yaml parser - added __DIR__ support.",
+  "keywords": ["yaml", "yml"],
+  "authors": [
+    {
+      "name": "Yulij Andreevich Lesov",
+      "email": "yalesov@gmail.com"
     }
+  ],
+  "require": {
+    "php": ">=5.3.3",
+    "yalesov/arg-validator": "2.*",
+    "symfony/yaml": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Yalesov\\Yaml": "src/"
+    }
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/yalesov/php-yaml",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/yalesov/php-yaml"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/yalesov/php-yaml/issues"
+  }
 }
